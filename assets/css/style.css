@@ -1,0 +1,57 @@
+/* Header */
+.header{
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.header .inner-main{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    border-radius: 45px;
+    background: #fff;
+}
+.header .inner-logo img {
+    height: 30px;
+    width: auto;
+}
+.header .inner-menu ul {
+    list-style: none;
+    /* Bỏ đi các dấu chấm tròn */
+    margin: 0;
+    padding: 0;
+    /* Vì thẻ ul mặc định có margin và padding nên ta reset nó về 0 */
+    display: flex;
+}
+.header .inner-menu ul li {
+    margin-left: 25px;
+}
+.header .inner-menu ul li a {
+    font-size: 14px;
+    color: var(--color-text);
+    font-weight: 500;
+    text-decoration: none;
+}
+.header .inner-menu ul li a:hover{
+    color: var(--color-two);
+}
+.header .inner-menu ul li a.active{
+    color: var(--color-two);
+}
+/* End Header */
+
+
+/* Section-1 */
+.section-1{
+    background-image: url(../images/banner-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+}
+
+/* End section-1 */
