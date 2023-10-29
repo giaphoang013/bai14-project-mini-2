@@ -22,3 +22,52 @@ a{
 a:hover{
     color: var(--color-two);
 }
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 45px;
+    background: #FFF;
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button-one{
+    background: var(--color-one);
+    color: white;
+}
+.button-one:hover{
+    background: var(--color-two);
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.button-two{
+    background: var(--color-two);
+    color: white;
+}
+.button-two:hover{
+    background: var(--color-one);
+    color: #FFF;
+}
+
+
+/* End button */
+
+/* Box Head */
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-head .inner-title {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.box-head .inner-desc {
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* End Box Head */
